@@ -20,14 +20,20 @@ export ZSH_THEME="robbyrussell"
 
 # language
 LANG=en_US.UTF-8
- LANGUAGE=en_US
- LC_ALL=en_US.UTF-8
-
+LANGUAGE=en_US
+LC_ALL=en_US.UTF-8
 
 # colorscheme
 export TERM=xterm-256color
 
-
 # sources
 #source /etc/zsh_command_not_found
 source $ZSH/oh-my-zsh.sh
+
+# custom key bindings
+alias v="vim"
+
+alias d="docker"
+
+alias g="git"
+alias gac="git add -A && git commit"

@@ -16,6 +16,8 @@ export ZSH_THEME="robbyrussell"
 # # paths
 # export PATH=$HOME/bin:$PATH
 # export PATH=/usr/local/bin:$PATH
+export PATH=$PATH:~/Coding/scripts
+export PATH=$PATH:~/Coding/scripts/tmux
 
 
 # language

@@ -28,3 +28,9 @@ filetype plugin indent on    " required
 for f in split(globpath('~/.dotfiles/vimrcs', '*.rc.vim'), '\n')
 	exe 'source' f
 endfor
+
+" Format HTML nice
+filetype indent on
+set smartindent
+set tabstop=2
+set shiftwidth=2

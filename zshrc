@@ -39,3 +39,4 @@ alias d="docker"
 
 alias g="git"
 alias gac="git add -A && git commit"
+alias gp="git push origin"

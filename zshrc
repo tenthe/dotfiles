@@ -4,7 +4,7 @@ export DOTFILES=$HOME/.dotfiles
 export ZSH=~/.oh-my-zsh
 #export ZSH_CUSTOM=$DOTFILES/oh-my-zsh-custom
 
-export ZSH_THEME="robbyrussell"
+export ZSH_THEME="honukai"
 
 #plugins=(git scala sbt)
 # # tmuxinator
@@ -26,7 +26,8 @@ LANGUAGE=en_US
 LC_ALL=en_US.UTF-8
 
 # colorscheme
-export TERM=xterm-256color
+#export TERM=xterm-256color
+export TERM=screen-256color
 
 # sources
 #source /etc/zsh_command_not_found

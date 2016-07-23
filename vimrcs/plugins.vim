@@ -19,7 +19,7 @@ Plugin 'itchyny/lightline.vim'
 
 " Tools
 Plugin 'tpope/vim-fugitive'
-Plugin 'kien/ctrlp.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'scrooloose/syntastic'
 if has('lua')
 	Plugin 'Shougo/neocomplete.vim'
@@ -36,6 +36,7 @@ Plugin 'majutsushi/tagbar'
 Plugin 'nelstrom/vim-qargs'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'bling/vim-bufferline'
+
 
 " Languages
 Plugin 'othree/html5.vim'

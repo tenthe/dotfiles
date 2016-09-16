@@ -50,6 +50,10 @@ Plugin 'fatih/vim-go'
 Plugin 'dag/vim2hs'
 Plugin 'groenewege/vim-less'
 Plugin 'LaTeX-Box-Team/LaTeX-Box'
+
+" ReactJS
+Plugin 'mxw/vim-jsx'
+
 if has('lua')
 	Plugin 'fatih/vim-go'
 endif

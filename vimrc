@@ -35,6 +35,10 @@ set smartindent
 set tabstop=2
 set shiftwidth=2
 
+" Allow JSX in normal JS files and use eslint for syntastic"
+let g:jsx_ext_required = 0 
+let g:syntastic_javascript_checkers = ['eslint']
+
 let g:solarized_termcolors=256
 syntax enable
 set background=dark

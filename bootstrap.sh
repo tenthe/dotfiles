@@ -11,3 +11,4 @@ function lndh {
 lndh vimrc
 lndh zshrc
 lndh tmux.conf
+lndh eslintrc

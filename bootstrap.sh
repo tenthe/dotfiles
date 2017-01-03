@@ -9,6 +9,7 @@ function lndh {
 }
 
 lndh vimrc
+lndh ideavimrc
 lndh zshrc
 lndh tmux.conf
 lndh eslintrc

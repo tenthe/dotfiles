@@ -19,6 +19,10 @@ export ZSH_THEME="honukai"
 export PATH=$PATH:~/Coding/scripts
 export PATH=$PATH:~/Coding/scripts/tmux
 
+export PATH=$PATH:/usr/local/cuda/bin
+export DYLD_LIBRARY_PATH=/Developer/NVIDIA/CUDA-8.0/lib\
+	                           ${DYLD_LIBRARY_PATH:+:${DYLD_LIBRARY_PATH}}
+export PATH=/Developer/NVIDIA/CUDA-8.0/bin${PATH:+:${PATH}}
 
 # language
 LANG=en_US.UTF-8

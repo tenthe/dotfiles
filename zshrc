@@ -42,6 +42,17 @@ alias v="vim"
 
 alias d="docker"
 
+#docker-compose alias
+alias dc="docker-compose"
+alias dcp="docker-compose pull"
+alias dcu="docker-compose up"
+alias dcuv="docker-compose up -d"
+alias dcs="docker-compose stop"
+alias dcrm="docker-compose rm"
+alias dcrmv="docker-compose rm -v"
+
+
+#git alias
 alias g="git"
 alias gac="git add -A && git commit"
 alias gp="git push origin"

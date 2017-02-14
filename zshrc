@@ -50,6 +50,7 @@ alias dcud="docker-compose up -d"
 alias dcs="docker-compose stop"
 alias dcrm="docker-compose rm"
 alias dcrmv="docker-compose rm -v"
+alias dcl='docker-compose logs'
 
 
 #git alias

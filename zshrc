@@ -57,4 +57,4 @@ alias dra='docker-compose stop && docker-compose rm -v && docker-compose up -d'
 #git alias
 alias g="git"
 alias gac="git add -A && git commit"
-alias gp="git push origin"
+alias gpo="git push origin"

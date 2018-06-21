@@ -44,4 +44,8 @@ syntax enable
 set background=dark
 colorscheme solarized
 
+" YAML config
+au BufRead,BufNewFile */*.yml set filetype=ansible
+let g:ansible_options = {'ignore_blank_lines': 0}
+
 "set clipboard=unnamed

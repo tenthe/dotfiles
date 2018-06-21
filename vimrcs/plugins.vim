@@ -50,6 +50,8 @@ Plugin 'fatih/vim-go'
 Plugin 'dag/vim2hs'
 Plugin 'groenewege/vim-less'
 Plugin 'LaTeX-Box-Team/LaTeX-Box'
+Plugin 'chase/vim-ansible-yaml'
+
 
 " ReactJS
 Plugin 'mxw/vim-jsx'

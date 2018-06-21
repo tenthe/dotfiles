@@ -42,12 +42,15 @@ alias v="vim"
 
 alias d="docker"
 
+alias s="streampipes"
+alias se="streampipes environment"
+
 #docker-compose alias
 alias dc="docker-compose"
 alias dcp="docker-compose pull"
 alias dcu="docker-compose up"
 alias dcud="docker-compose up -d"
-alias dcs="docker-compose stop"
+alias dcd="docker-compose down"
 alias dcrm="docker-compose rm"
 alias dcrmv="docker-compose rm -v"
 alias dcl='docker-compose logs'

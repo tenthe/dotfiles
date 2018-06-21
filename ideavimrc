@@ -1,5 +1,7 @@
 :imap jk <Esc>
 
+
+
 map <C-H> <C-W>h 
 map <C-J> <C-W>j 
 map <C-K> <C-W>k 
@@ -8,3 +10,17 @@ map <C-L> <C-W>l
 " This maps a key binding to an IntelliJ command
 " Get all possible actions with :actionlist 
 map g] :action GotoImplementation<CR>
+
+" Navigate between tabs
+map <C-B>n :action VimMotionNextTab<CR>
+map <C-B>p :action VimMotionPreviousTab<CR>
+
+" Notes 
+" <C-X>x is a keybinfing for first Ctrl then x
+
+" Ctrl + V						
+map <C-V> :action SplitVertically<CR>
+map <C-S> :action SplitHorizontally<CR>
+
+"Jump to test class
+map <C-T> :action GotoTest<CR>

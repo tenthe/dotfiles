@@ -17,12 +17,16 @@ export ZSH_THEME="honukai"
 # export PATH=$HOME/bin:$PATH
 # export PATH=/usr/local/bin:$PATH
 export PATH=$PATH:~/Coding/scripts
+export PATH=$PATH:~/Coding/streampipes/dev-installer
+export PATH=$PATH:~/Coding/streampipes/dev-installer/streampipes-completion.bash
 export PATH=$PATH:~/Coding/scripts/tmux
 
 export PATH=$PATH:/usr/local/cuda/bin
 export DYLD_LIBRARY_PATH=/Developer/NVIDIA/CUDA-8.0/lib\
-	                           ${DYLD_LIBRARY_PATH:+:${DYLD_LIBRARY_PATH}}
+	${DYLD_LIBRARY_PATH:+:${DYLD_LIBRARY_PATH}}
 export PATH=/Developer/NVIDIA/CUDA-8.0/bin${PATH:+:${PATH}}
+
+export PATH=$PATH:/Applications/Inkscape.app/Contents/Resource/bin
 
 # language
 LANG=en_US.UTF-8
@@ -39,11 +43,11 @@ source $ZSH/oh-my-zsh.sh
 
 # custom key bindings
 alias v="vim"
+alias spa="sp start -ld"
+alias spo="sp stop -l"
+alias spr="sp stop -l; sp start -ld"
 
 alias d="docker"
-
-alias s="streampipes"
-alias se="streampipes environment"
 
 #docker-compose alias
 alias dc="docker-compose"
@@ -61,3 +65,5 @@ alias dra='docker-compose stop && docker-compose rm -v && docker-compose up -d'
 alias g="git"
 alias gac="git add -A && git commit"
 alias gpo="git push origin"
+
+
